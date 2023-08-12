@@ -14,7 +14,7 @@
 
  This value measured in second.
 
- You can view service events in the Events Log. Apps&Services > WUP Blocker tree.
+ You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
 
 ## Event numbers and messages
 
