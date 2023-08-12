@@ -131,6 +131,14 @@ _______________________________________________________________________
 
 _______________________________________________________________________
 
+## Troubleshooting
+
+If Service not working (ex. won't start etc.), check Your antivirus or other protection software.
+
+You can view detailed result in the EventLog (eventvwr.msc) > Windows logs > Application (Source: wupblocker)
+
+_______________________________________________________________________
+
 No spyware, ransomware, malware or any other harmful code inside.
 
 _______________________________________________________________________
