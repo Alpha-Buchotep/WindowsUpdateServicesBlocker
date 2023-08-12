@@ -65,7 +65,7 @@
 
 ![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c7d34ccc-2ec8-4008-8a7d-e234deae4a30)
 
-## EventLog
+## EventLog (eventvwr.msc)
 
 ![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c964504c-a6c0-49dc-a56c-5dc847dfa753)
 
