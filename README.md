@@ -63,16 +63,17 @@
 
 ## Services (services.msc)
 
-![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c7d34ccc-2ec8-4008-8a7d-e234deae4a30)
+![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/8730d714-e2bd-4780-8fd2-55f142ac4b86)
+
 
 ## EventLog (eventvwr.msc)
 
-![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c964504c-a6c0-49dc-a56c-5dc847dfa753)
+![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/62a7f67b-86fd-4538-8e63-ef7977fed3f2)
 
  
 ## Installation
 
- 1. Execute installer as Administrator (important)
+ 1. Execute installer as Administrator. (important)
  2. Select install directory.
  3. After installing, press Win+R > type services.msc into the run dialog > press Enter.
  4. Search / check Windows Update Services Blocker (wupblocker)
@@ -81,13 +82,13 @@
 
  Note: if You want to search or apply a Windows Update, stop the service.
 
-![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/b6c42308-9a11-45cc-ad50-92d0c40df181)
+![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/a0fc739c-801e-4a38-93ff-acf9465a934d)
 
-![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/3b20b896-87e2-4af1-9e95-dbe0c2ced416)
+![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1b072c02-b1ab-4c4f-9c74-bf09621a4469)
 
-![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/9df05b59-20ab-4dd0-9dc0-2037ebc6949d)
+![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/28bb587d-ee0c-401d-8c52-252f5ed1328a)
 
-![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/4339e554-aadf-4b9f-85c8-92357bdc29e5)
+![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/46620f86-08dc-48f2-9127-32525b195bc9)
 
 
 ## Uninstallation
