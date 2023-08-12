@@ -60,6 +60,15 @@
 - 538 - Cannot change Windows Update Medic Service account to Guest
 - 540 - Windows Update Service state unknown
 - 550 - Windows Update Medic Service state unknown
+
+## Services (services.msc)
+
+![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c7d34ccc-2ec8-4008-8a7d-e234deae4a30)
+
+## EventLog
+
+![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/c964504c-a6c0-49dc-a56c-5dc847dfa753)
+
  
 ## Installation
 
@@ -72,17 +81,26 @@
 
  Note: if You want to search or apply a Windows Update, stop the service.
 
+![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/b6c42308-9a11-45cc-ad50-92d0c40df181)
+
+![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/3b20b896-87e2-4af1-9e95-dbe0c2ced416)
+
+![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/9df05b59-20ab-4dd0-9dc0-2037ebc6949d)
+
+![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/4339e554-aadf-4b9f-85c8-92357bdc29e5)
+
+
 ## Uninstallation
 
  Execute uninstall.exe in install directory.
  
  or
  
- Find Windows Update Services in Settings > Apps&Services
+ Find Windows Update Services Blocker in Settings > Apps&Services
  
  or 
  
- Uninstall using the old Control Panel method.
+ Uninstall using the old Control Panel method. (control.exe)
 
 ## Tested 
 
