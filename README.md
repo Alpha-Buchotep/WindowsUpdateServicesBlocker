@@ -113,6 +113,27 @@
  - Windows 11 x64 Professional 22H2
  - Windows 11 x64 Professional for Workstation 22H2
 
+## Virustotal
+
+- Setup-WUPSvcBlocker.v1.0.0.1.exe
+- Detection: 11 / 71 (08/13/2023)
+
+### Link
+#### https://www.virustotal.com/gui/file/e56665fbb5853d5744cb47da81a5888879f226148aff903968de922a632bbad1?nocache=1
+
+_______________________________________________________________________
+
+- WindowsUpdateBlocker.exe
+- Detection: 2 / 71 (08/13/2023)
+
+### Link
+#### https://www.virustotal.com/gui/file/bf023804f4ca9bd53f8120815e214c6f73403ae07fdf472c45de955a1ffae9a4?nocache=1
+
+_______________________________________________________________________
+
+No spyware, ransomware, malware or any other harmful code inside.
+
+_______________________________________________________________________
 
 Programmed with love,
 1983-2023, C2H5Cl, Hungary
