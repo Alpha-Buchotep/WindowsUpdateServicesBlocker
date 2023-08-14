@@ -1,18 +1,24 @@
 # Windows Update Services Blocker (W10 / W11)
 
  This service stops Windows Update and Windows Update Medic services at the specified intervals.
-
  If not configured in the wupblocker.conf file, the default value is 60.
 
  The wupblocker.conf file is a plain text file that should be in the installation directory.
- 
- You have to write in the FISRT LINE of the config file.
+  You have to write in the FISRT LINE of the config file.
 
  Accepted values (integer): 30-600
- 
  If value is 0, the service stops itself.
 
  This value measured in second.
+
+
+ - [Event numbers](#event-numbers-and-messages)
+ - [Pictures](#services-servicesmsc)
+ - [Installation](#installation)
+ - [Uninstallation](#uninstallation)
+ - [Virustotal Results](#virustotal)
+ - [Trobleshooting](#troubleshooting)
+
 
  You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
 
