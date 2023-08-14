@@ -1,4 +1,4 @@
-# Windows Update Blocker Service (W10 / W11)
+# Windows Update Services Blocker (W10 / W11)
 
  This service stops Windows Update and Windows Update Medic services at the specified intervals.
 
