@@ -20,10 +20,9 @@
  - [Virustotal Results](#virustotal)
  - [Trobleshooting](#troubleshooting)
 
-
- You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
-
 ## Event numbers and messages
+
+You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
 
 ### Windows Update Blocker Service Starting
  
