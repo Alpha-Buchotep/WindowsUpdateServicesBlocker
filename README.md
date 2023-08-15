@@ -83,7 +83,13 @@
 ![04-TaskManager](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6134f2ba-82b2-47ed-b70d-2d898bce337a)
 
 [To top](#windows-update-services-blocker-w10--w11)
- 
+
+## Requirements
+
+- Windows 10 / Windows 11 operating system
+- .NET Framework v4.5
+
+
 ## Installation
 
  1. Execute installer as Administrator. (important)
