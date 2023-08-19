@@ -24,6 +24,21 @@
 
 You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
 
+Files in folder:
+
+ WindowsUpdateBlocker.exe - the service file
+ 
+ WindowsUpdateBlockerCleanup.exe - a little utility to resetting Windows Update and Windows Update Medic services to their defaults.
+ 
+ To silenty reset Windows Update Services without any messages open a command prompt from service directory as admin and type:
+ 
+ WindowsUpdateBlockerCleanup.exe s
+
+ The 's' switch instructs the utility to work silently.
+ 
+ When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
+
+
 ### Windows Update Blocker Service Starting
  
 - 100 - Starting Windows Update Blocker Service
@@ -42,6 +57,10 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 - 248 - Windows Update Medic Service account successfully changed to Guest
 - 250 - Windows Update Service already stopped
 - 260 - Windows Update Medic Service already stopped
+- 270 - Windows Update Service already disabled
+- 275 - Windows Update Service account already changed to Guest
+- 280 - Windows Update Medic Service already disabled
+- 285 - Windows Update Medic Service account already changed to Guest
 
 ### Windows Update Blocker Service Stopping
 
@@ -134,19 +153,27 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ## Virustotal
 
-- Setup-WUPSvcBlocker.v1.0.0.1.exe
-- Detection: 11 / 71 (08/13/2023)
+- Setup-WUPSvcBlocker.v1.0.0.2.exe (created with InstallBuilder)
+- Detection: 12 / 71 (08/19/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/e56665fbb5853d5744cb47da81a5888879f226148aff903968de922a632bbad1?nocache=1
+#### https://www.virustotal.com/gui/file/667d799c7e3ee8d763c1e97cc9f182bf03878582f54e52ceffdc0fa50cf91017?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlocker.exe
-- Detection: 2 / 71 (08/13/2023)
+- Detection: 2 / 71 (08/19/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/bf023804f4ca9bd53f8120815e214c6f73403ae07fdf472c45de955a1ffae9a4?nocache=1
+#### https://www.virustotal.com/gui/file/c747a23940372145a05f803df25556d271f4081e733b7c79a744817192e9ddfc?nocache=1
+
+_______________________________________________________________________
+
+- WindowsUpdateBlockerCleanup.exe
+- Detection: 3 / 71 (08/19/2023)
+
+### Link
+#### https://www.virustotal.com/gui/file/c9c30b8acdea03189b627655c77b0ea3d99332e88658cae34be504e59ab0f29b?nocache=1
 
 [To top](#windows-update-services-blocker-w10--w11)
 
