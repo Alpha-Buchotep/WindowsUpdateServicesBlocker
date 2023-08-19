@@ -12,6 +12,7 @@
  This value measured in second.
 
 
+ - [Files](#files)
  - [Event numbers](#event-numbers-and-messages)
  - [Pictures](#services-servicesmsc)
  - [Requirements](#requirements)
@@ -20,24 +21,22 @@
  - [Virustotal Results](#virustotal)
  - [Trobleshooting](#troubleshooting)
 
-## Event numbers and messages
+## Files
 
-You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
-
-Files in folder:
-
- WindowsUpdateBlocker.exe - the service file
- 
- WindowsUpdateBlockerCleanup.exe - a little utility to resetting Windows Update and Windows Update Medic services to their defaults.
+ - WindowsUpdateBlocker.exe - the service file
+ - WindowsUpdateBlockerCleanup.exe - a little utility to resetting Windows Update and Windows Update Medic services to their defaults.
  
  To silenty reset Windows Update Services without any messages open a command prompt from service directory as admin and type:
- 
  WindowsUpdateBlockerCleanup.exe s
 
  The 's' switch instructs the utility to work silently.
  
  When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
 
+
+## Event numbers and messages
+
+You can view service events in the Events Log > Apps&Services > WUP Blocker tree.
 
 ### Windows Update Blocker Service Starting
  
