@@ -111,6 +111,9 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ## Installation
 
+### Important!
+Always install to **dedicated subdirectory**.
+
  1. Execute installer as Administrator. (important)
  2. Select install directory.
  3. After installing, press Win+R > type services.msc into the run dialog > press Enter.
