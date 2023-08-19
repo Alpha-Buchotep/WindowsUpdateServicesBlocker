@@ -121,7 +121,7 @@ Always install to **dedicated subdirectory**.
  5. Start service.
  6. That's all.
 
- Note: if You want to search or apply a Windows Update, stop the service.
+ Note: if You want to search or apply a Windows Update, stop the service and run WindowsUpdateBlockerCleanup.exe as administrator.
 
 ![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/a0fc739c-801e-4a38-93ff-acf9465a934d)
 
