@@ -11,6 +11,9 @@
 
  This value measured in second.
 
+ Service and helper utility written in VB.NET (v4.5)
+
+
  - [Files](#files)
  - [Requirements](#requirements)
  - [Installation](#installation)
@@ -225,8 +228,6 @@ _______________________________________________________________________
 No spyware, ransomware, malware or any other harmful code inside.
 
 _______________________________________________________________________
-
-Service written in VB.NET (v4.5)
 
 Programmed with love,
 1983-2023, C2H5Cl, Hungary
