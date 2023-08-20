@@ -27,17 +27,17 @@
 
  Files in installed folder:
 
- - WindowsUpdateBlocker.exe - service file (cannot execute directly)
+ - **WindowsUpdateBlocker.exe** - service file (cannot execute directly)
  
- - WindowsUpdateBlockerCleanup.exe - a little console utility to resetting Windows Update and Windows Update Medic services to their defaults. This utility also stopping Windows Update Blocker Service.
+ - **WindowsUpdateBlockerCleanup.exe** - a little console utility to resetting Windows Update and Windows Update Medic services to their defaults. This utility also stopping Windows Update Blocker Service.
  
 ### You can use 3 switches (run as Administrator to take effects)
  
- WindowsUpdateBlockerCleanup.exe /h - Help
+ **WindowsUpdateBlockerCleanup.exe /h** - Help
  
- WindowsUpdateBlockerCleanup.exe /s - Silently reset Windows Update Services without any prompt
+ **WindowsUpdateBlockerCleanup.exe /s** - Silently reset Windows Update Services without any prompt
  
- WindowsUpdateBlockerCleanup.exe /r - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
+ **WindowsUpdateBlockerCleanup.exe /r** - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
  
  When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
 
