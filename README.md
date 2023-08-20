@@ -124,7 +124,6 @@ This utility stops Windows Update Blocker Service and resetting Windows Update a
 
 ![CleanUpUtility](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/e9f9ed5c-41ca-44ea-ba76-cb4c4b27aea7)
 
-
 ## Installation
 
 ### Important!
@@ -172,15 +171,15 @@ Always install to **dedicated subdirectory**.
 ## Virustotal
 
 - Setup-WUPSvcBlocker.v1.0.0.2.exe (created with InstallBuilder)
-- Detection: 12 / 71 (08/19/2023)
+- Detection: 12 / 71 (08/20/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/667d799c7e3ee8d763c1e97cc9f182bf03878582f54e52ceffdc0fa50cf91017?nocache=1
+#### https://www.virustotal.com/gui/file/fc9ea6e2ba49169c5e2b2c32e6106c21080ddfc5a4e0d23f73f9a1f79170c5e0?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlocker.exe
-- Detection: 2 / 71 (08/19/2023)
+- Detection: 2 / 71 (08/20/2023)
 
 ### Link
 #### https://www.virustotal.com/gui/file/c747a23940372145a05f803df25556d271f4081e733b7c79a744817192e9ddfc?nocache=1
@@ -188,10 +187,10 @@ _______________________________________________________________________
 _______________________________________________________________________
 
 - WindowsUpdateBlockerCleanup.exe
-- Detection: 3 / 71 (08/19/2023)
+- Detection: 5 / 71 (08/20/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/c9c30b8acdea03189b627655c77b0ea3d99332e88658cae34be504e59ab0f29b?nocache=1
+#### https://www.virustotal.com/gui/file/29633f19b743a800129d2d092eb1f445b07bc3748391460e243a2665ccafffa0?nocache=1
 
 [To top](#windows-update-services-blocker-w10--w11)
 
