@@ -15,6 +15,7 @@
  - [Event numbers](#event-numbers-and-messages)
  - [Pictures](#services-servicesmsc)
  - [Requirements](#requirements)
+ - [Search or apply Windows Update](#search-or-apply-windows-update)
  - [Installation](#installation)
  - [Uninstallation](#uninstallation)
  - [Virustotal Results](#virustotal)
@@ -118,6 +119,9 @@ This utility stops Windows Update Blocker Service and resetting Windows Update a
 
 - set startup mode to Automatic
 - set service's user account to LocalSystem
+
+![CleanUpUtility](https://github.com/Alpha-Buchotep/WindowsUpdateServicesBlocker/assets/63890454/e9f9ed5c-41ca-44ea-ba76-cb4c4b27aea7)
+
 
 ## Installation
 
