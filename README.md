@@ -218,7 +218,7 @@ _______________________________________________________________________
 
 If Service not working (ex. won't start etc.), check Your antivirus or other protection software.
 
-Maybe service blocked by Your AntiVirus / HIPS / other protection software (quarantine, SandBox, blocked, deleted)
+Maybe service blocked by Your AntiVirus / HIPS / other protection software (service executable quarantinized / sandboxed / blocked / deleted)
 
 You can view detailed information about service related events in the EventLog (eventvwr.msc) > Windows logs > Application (Source: wupblocker)
 
