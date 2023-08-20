@@ -96,7 +96,7 @@ Always install to **dedicated subdirectory**.
 
 ## Search or apply Windows Update
 
-If You want ot search or apply a Windows Update do the following:
+If You want to search or apply a Windows Update do the following:
 
 Start **WindowsUpdateBlockerCleanup.exe** as administrator.
 
