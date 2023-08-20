@@ -12,12 +12,12 @@
  This value measured in second.
 
  - [Files](#files)
- - [Event numbers](#event-numbers-and-messages)
- - [Pictures](#services-servicesmsc)
  - [Requirements](#requirements)
- - [Search or apply Windows Update](#search-or-apply-windows-update)
  - [Installation](#installation)
  - [Uninstallation](#uninstallation)
+ - [Search or apply Windows Update](#search-or-apply-windows-update)
+ - [Pictures](#pictures)
+ - [Event numbers](#event-numbers-and-messages)
  - [Virustotal Results](#virustotal)
  - [Trobleshooting](#troubleshooting)
 
@@ -38,6 +38,89 @@
  WindowsUpdateBlockerCleanup.exe /r - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
  
  When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
+
+
+## Requirements
+
+- Windows 10 / Windows 11 operating system
+- Minimum .NET Framework v4.5 or higher
+
+### Tested 
+
+ - Windows 10 x64 Professional 22H2
+ - Windows 11 x64 Professional 22H2
+ - Windows 11 x64 Professional for Workstation 22H2
+
+
+## Installation
+
+### Important!
+Always install to **dedicated subdirectory**.
+
+ 1. Execute installer as Administrator. (important)
+ 2. Select install directory.
+ 3. After installing, press Win+R > type services.msc into the run dialog > press Enter.
+ 4. Search / check Windows Update Services Blocker (wupblocker)
+ 5. Start service.
+ 6. That's all.
+
+ Note: if You want to search or apply a Windows Update, stop the service and run WindowsUpdateBlockerCleanup.exe as administrator.
+
+![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/a0fc739c-801e-4a38-93ff-acf9465a934d)
+
+![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1b072c02-b1ab-4c4f-9c74-bf09621a4469)
+
+![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/28bb587d-ee0c-401d-8c52-252f5ed1328a)
+
+![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/46620f86-08dc-48f2-9127-32525b195bc9)
+
+[To top](#windows-update-services-blocker-w10--w11)
+
+
+## Uninstallation
+
+ Execute uninstall.exe in install directory.
+ 
+ or
+ 
+ Find Windows Update Services Blocker in Settings > Apps&Services
+ 
+ or 
+ 
+ Uninstall using the old Control Panel method. (control.exe)
+
+ [To top](#windows-update-services-blocker-w10--w11)
+
+
+## Search or apply Windows Update
+
+If You want ot search or apply a Windows Update do the following:
+
+Start **WindowsUpdateBlockerCleanup.exe** as administrator.
+
+This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
+
+- set startup mode to Automatic
+- set service's user account to LocalSystem
+
+![CleanUpUtility](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/e9f9ed5c-41ca-44ea-ba76-cb4c4b27aea7)
+
+## Pictures
+
+### Services (services.msc)
+
+![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/8730d714-e2bd-4780-8fd2-55f142ac4b86)
+
+### EventLog (eventvwr.msc)
+
+![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/62a7f67b-86fd-4538-8e63-ef7977fed3f2)
+
+### Task Manager (taskmgr.exe)
+
+![04-TaskManager](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6134f2ba-82b2-47ed-b70d-2d898bce337a)
+
+[To top](#windows-update-services-blocker-w10--w11)
+
 
 ## Event numbers and messages
 
@@ -92,81 +175,6 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 [To top](#windows-update-services-blocker-w10--w11)
 
-## Services (services.msc)
-
-![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/8730d714-e2bd-4780-8fd2-55f142ac4b86)
-
-## EventLog (eventvwr.msc)
-
-![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/62a7f67b-86fd-4538-8e63-ef7977fed3f2)
-
-## Task Manager (taskmgr.exe)
-
-![04-TaskManager](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6134f2ba-82b2-47ed-b70d-2d898bce337a)
-
-[To top](#windows-update-services-blocker-w10--w11)
-
-## Requirements
-
-- Windows 10 / Windows 11 operating system
-- .NET Framework v4.5
-
-## Search or apply Windows Update
-
-If You want ot search or apply a Windows Update do the following:
-
-Start **WindowsUpdateBlockerCleanup.exe** as administrator.
-
-This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
-
-- set startup mode to Automatic
-- set service's user account to LocalSystem
-
-![CleanUpUtility](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/e9f9ed5c-41ca-44ea-ba76-cb4c4b27aea7)
-
-## Installation
-
-### Important!
-Always install to **dedicated subdirectory**.
-
- 1. Execute installer as Administrator. (important)
- 2. Select install directory.
- 3. After installing, press Win+R > type services.msc into the run dialog > press Enter.
- 4. Search / check Windows Update Services Blocker (wupblocker)
- 5. Start service.
- 6. That's all.
-
- Note: if You want to search or apply a Windows Update, stop the service and run WindowsUpdateBlockerCleanup.exe as administrator.
-
-![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/a0fc739c-801e-4a38-93ff-acf9465a934d)
-
-![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1b072c02-b1ab-4c4f-9c74-bf09621a4469)
-
-![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/28bb587d-ee0c-401d-8c52-252f5ed1328a)
-
-![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/46620f86-08dc-48f2-9127-32525b195bc9)
-
-[To top](#windows-update-services-blocker-w10--w11)
-
-## Uninstallation
-
- Execute uninstall.exe in install directory.
- 
- or
- 
- Find Windows Update Services Blocker in Settings > Apps&Services
- 
- or 
- 
- Uninstall using the old Control Panel method. (control.exe)
-
- [To top](#windows-update-services-blocker-w10--w11)
-
-## Tested 
-
- - Windows 10 x64 Professional 22H2
- - Windows 11 x64 Professional 22H2
- - Windows 11 x64 Professional for Workstation 22H2
 
 ## Virustotal
 
