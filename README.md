@@ -113,6 +113,8 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ## Search or apply Windows Update
 
+If You want ot search or apply a Windows Update do the following:
+
 Start **WindowsUpdateBlockerCleanup.exe** as administrator.
 
 This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
