@@ -11,7 +11,6 @@
 
  This value measured in second.
 
-
  - [Files](#files)
  - [Event numbers](#event-numbers-and-messages)
  - [Pictures](#services-servicesmsc)
@@ -23,16 +22,21 @@
 
 ## Files
 
- - WindowsUpdateBlocker.exe - the service file
- - WindowsUpdateBlockerCleanup.exe - a little utility to resetting Windows Update and Windows Update Medic services to their defaults.
- 
- To silenty reset Windows Update Services without any messages open a command prompt from service directory as admin and type:
- WindowsUpdateBlockerCleanup.exe s
+ Files in installed folder:
 
- The 's' switch instructs the utility to work silently.
+ - WindowsUpdateBlocker.exe - service file (cannot execute directly)
+ 
+ - WindowsUpdateBlockerCleanup.exe - a little console utility to resetting Windows Update and Windows Update Medic services to their defaults. This utility also stopping Windows Update Blocker Service.
+ 
+### You can use 3 switches (run as Administrator to take effects)
+ 
+ WindowsUpdateBlockerCleanup.exe /h - Help
+ 
+ WindowsUpdateBlockerCleanup.exe /s - Silently reset Windows Update Services without any prompt
+ 
+ WindowsUpdateBlockerCleanup.exe /r - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
  
  When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
-
 
 ## Event numbers and messages
 
@@ -91,7 +95,6 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ![02-Service](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/8730d714-e2bd-4780-8fd2-55f142ac4b86)
 
-
 ## EventLog (eventvwr.msc)
 
 ![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/62a7f67b-86fd-4538-8e63-ef7977fed3f2)
@@ -102,12 +105,19 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 [To top](#windows-update-services-blocker-w10--w11)
 
-
 ## Requirements
 
 - Windows 10 / Windows 11 operating system
 - .NET Framework v4.5
 
+## Search or apply Windows Update
+
+Start **WindowsUpdateBlockerCleanup.exe** as administrator.
+
+This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
+
+- set startup mode to Automatic
+- set service's user account to LocalSystem
 
 ## Installation
 
