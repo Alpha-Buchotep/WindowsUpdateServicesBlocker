@@ -218,7 +218,10 @@ _______________________________________________________________________
 
 If Service not working (ex. won't start etc.), check Your antivirus or other protection software.
 
-You can view detailed result in the EventLog (eventvwr.msc) > Windows logs > Application (Source: wupblocker)
+Maybe service blocked by Your AntiVirus / HIPS / other protection software (quarantine, SandBox, blocked, deleted)
+
+You can view detailed information about service related events in the EventLog (eventvwr.msc) > Windows logs > Application (Source: wupblocker)
+
 
 [To top](#windows-update-services-blocker-w10--w11)
 
