@@ -98,7 +98,7 @@ Always install to **dedicated subdirectory**.
 
 If You want to search or apply a Windows Update do the following:
 
-Start **WindowsUpdateBlockerCleanup.exe** as administrator.
+Start **WindowsUpdateBlockerCleanup.exe** as administrator and search for updates.
 
 This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
 
