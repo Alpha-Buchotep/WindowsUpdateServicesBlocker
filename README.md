@@ -100,6 +100,8 @@ If You want to search or apply a Windows Update do the following:
 
 Start **WindowsUpdateBlockerCleanup.exe** as administrator and search for updates.
 
+If You finished updating Windows and want to prevent automatic updates then start Windows Update Blocker Service (wupblocker).
+
 ### **Note**
 This utility stops Windows Update Blocker Service and resetting Windows Update and Windows Update Medic Service (if exists).
 
