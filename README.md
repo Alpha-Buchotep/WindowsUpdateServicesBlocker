@@ -63,10 +63,7 @@ Always install to **dedicated subdirectory**.
 
  1. Execute installer as Administrator. (important)
  2. Select install directory.
- 3. After installing, press Win+R > type services.msc into the run dialog > press Enter.
- 4. Search / check Windows Update Services Blocker (wupblocker)
- 5. Start service.
- 6. That's all.
+ 3. That's all.
 
  Note: if You want to search or apply a Windows Update run WindowsUpdateBlockerCleanup.exe as administrator. (see above)
 
