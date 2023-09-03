@@ -90,7 +90,7 @@ Always install to **dedicated subdirectory**.
  
  or 
  
- Uninstall using the old Control Panel method. (control.exe)
+ Uninstall using the old Control Panel method. (control.exe > Programs and Features or Win+R > appwiz.cpl)
 
  [To top](#windows-update-services-blocker-w10--w11)
 
