@@ -67,20 +67,22 @@ Always install to **dedicated subdirectory**.
 
  Note: if You want to search or apply a Windows Update run WindowsUpdateBlockerCleanup.exe as administrator. (see above)
 
-![01-Setup-1](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/a0fc739c-801e-4a38-93ff-acf9465a934d)
+![Install-01](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6bf10126-5745-4bda-b7ae-9a7c7f0a0fd4)
 
-![01-Setup-2](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1b072c02-b1ab-4c4f-9c74-bf09621a4469)
+![Install-02](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/bf7d5aa2-4a8a-4a4b-8433-d4b2f326d201)
 
-![01-Setup-3](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/28bb587d-ee0c-401d-8c52-252f5ed1328a)
+![Install-03](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1f05288f-8eb8-457a-abaf-41a2b3052f20)
 
-![01-Setup-4](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/46620f86-08dc-48f2-9127-32525b195bc9)
+![Install-04](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/1ad79afe-bfe2-4cd1-a2a7-1ad3dc03fdea)
+
+![Install-05](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/d619e51a-953d-4c36-91b8-7b54c4ec1532)
 
 [To top](#windows-update-services-blocker-w10--w11)
 
 
 ## Uninstallation
 
- Execute uninstall.exe in install directory.
+ Execute Installer and choose Remove.
  
  or
  
