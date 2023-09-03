@@ -189,7 +189,7 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 ## Virustotal
 
 - Setup-WUPSvcBlocker.v1.0.0.2.exe
-- Detection: 12 / 71 (09/03/2023)
+- Detection: 13 / 71 (09/03/2023)
 
 ### Link
 #### https://www.virustotal.com/gui/file/86e6702c83a3b820075d52779f0e44c4a2dd8de4840607b96b250ea7ae99d752?nocache=1
