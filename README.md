@@ -39,7 +39,7 @@
  
  **WindowsUpdateBlockerCleanup.exe /r** - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
  
- When You uninstall the service with  Uninstall.exe or Apps&Services remove method, the uninstaller process starts this utility to reset services.
+ When You uninstall the service the uninstaller process starts this utility to reset services to their defaults state.
 
 
 ## Requirements
