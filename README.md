@@ -1,4 +1,4 @@
-# Windows Update Services Blocker (W10 / W11)
+# Windows Update Services Blocker (W7 / W8 / W10 / W11)
 
  This service stops Windows Update and Windows Update Medic services at the specified intervals.
  If not configured in the wupblocker.conf file, the default value is 60 (sec).
@@ -44,11 +44,15 @@
 
 ## Requirements
 
+- Windows 7
+- Windows 8
 - Windows 10 / Windows 11 operating system
 - Minimum .NET Framework v4.5 or higher
 
 ### Tested 
 
+ - Windows  7 x64 Ultimate
+ - Windows  8 x64 Professional
  - Windows 10 x64 Professional 22H2
  - Windows 11 x64 Professional 22H2
  - Windows 11 x64 Professional for Workstation 22H2
