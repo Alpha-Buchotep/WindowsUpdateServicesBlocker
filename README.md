@@ -45,9 +45,7 @@
 
 ## Requirements
 
-- Windows 7
-- Windows 8
-- Windows 10 / Windows 11 operating system
+- Windows 7 / Windows 8 / Windows 10 / Windows 11 operating system
 - Minimum .NET Framework v4.5 or higher
 
 ### Tested 
