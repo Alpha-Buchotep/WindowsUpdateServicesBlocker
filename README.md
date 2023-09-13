@@ -130,7 +130,7 @@ This utility stops Windows Update Blocker Service and resetting Windows Update a
 
 ![03-EventLog](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/62a7f67b-86fd-4538-8e63-ef7977fed3f2)
 
-### Task Manager (taskmgr.exe)
+### Task Manager (taskmgr.exe - Process Hacker)
 
 ![04-TaskManager](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6134f2ba-82b2-47ed-b70d-2d898bce337a)
 
