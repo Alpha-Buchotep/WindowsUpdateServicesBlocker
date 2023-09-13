@@ -56,7 +56,7 @@
  - Windows 11 x64 Professional 22H2
  - Windows 11 x64 Professional for Workstation 22H2
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 
 ## Installation
@@ -80,7 +80,7 @@ Always install to **dedicated subdirectory**.
 
 ![Install-05](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/d619e51a-953d-4c36-91b8-7b54c4ec1532)
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 
 ## Uninstallation
@@ -95,7 +95,7 @@ Always install to **dedicated subdirectory**.
  
  Uninstall using the old Control Panel method. (control.exe > Programs and Features or Win+R > appwiz.cpl)
 
- [To top](#windows-update-services-blocker-w10--w11)
+ [To top](#windows-update-services-blocker)
 
 
 ## Search or apply Windows Update
@@ -114,7 +114,7 @@ This utility stops Windows Update Blocker Service and resetting Windows Update a
 
 ![CleanUpUtility](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/e9f9ed5c-41ca-44ea-ba76-cb4c4b27aea7)
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 
 ## Pictures
@@ -132,7 +132,7 @@ This utility stops Windows Update Blocker Service and resetting Windows Update a
 
 ![04-TaskManager](https://github.com/Alpha-Buchotep/WUPBlocker/assets/63890454/6134f2ba-82b2-47ed-b70d-2d898bce337a)
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 
 ## Event numbers and messages
@@ -186,7 +186,7 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 - 540 - Windows Update Service state unknown
 - 550 - Windows Update Medic Service state unknown
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 
 ## Virustotal
@@ -213,7 +213,7 @@ _______________________________________________________________________
 ### Link
 #### https://www.virustotal.com/gui/file/1911cad441298487cecc64e9b8590fe323a329ad7e0fd3ac030ea40b722f8ab9?nocache=1
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 _______________________________________________________________________
 
@@ -226,7 +226,7 @@ Maybe service blocked by Your AntiVirus / HIPS / other protection software (serv
 You can view detailed information about service related events in the EventLog (eventvwr.msc) > Windows logs > Application (Source: wupblocker)
 
 
-[To top](#windows-update-services-blocker-w10--w11)
+[To top](#windows-update-services-blocker)
 
 _______________________________________________________________________
 
