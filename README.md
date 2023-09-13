@@ -40,7 +40,7 @@
  
  **WindowsUpdateBlockerCleanup.exe /r** - Try to restart Windows Update Service and Windows Update Medic Service (if exists)
  
- When You uninstall the service the uninstaller process starts this utility to reset services to their defaults state.
+ When You uninstall the service uninstaller process starts this utility to reset services to their defaults state.
 
 
 ## Requirements
@@ -191,27 +191,27 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ## Virustotal
 
-- Setup-WUPSvcBlocker.v1.0.0.2.exe
+- Setup-WUPSvcBlocker.v1.0.0.3.exe
 - Detection: 13 / 71 (09/13/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/c15437f2d46b08a54726705fce40fd5b42986a2c42c15704dc033ab1dd71262a?nocache=1
+#### https://www.virustotal.com/gui/file/539e3e7bf29dbba0c74a76c92e562eba887ff6d0107eb9cc0a0656a1da5f4f9f?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlocker.exe
-- Detection: 2 / 71 (08/20/2023)
+- Detection: 2 / 71 (09/13/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/c747a23940372145a05f803df25556d271f4081e733b7c79a744817192e9ddfc?nocache=1
+#### https://www.virustotal.com/gui/file/539e3e7bf29dbba0c74a76c92e562eba887ff6d0107eb9cc0a0656a1da5f4f9f?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlockerCleanup.exe
-- Detection: 5 / 71 (08/20/2023)
+- Detection: 4 / 71 (09/13/2023)
 
 ### Link
-#### https://www.virustotal.com/gui/file/29633f19b743a800129d2d092eb1f445b07bc3748391460e243a2665ccafffa0?nocache=1
+#### https://www.virustotal.com/gui/file/1911cad441298487cecc64e9b8590fe323a329ad7e0fd3ac030ea40b722f8ab9?nocache=1
 
 [To top](#windows-update-services-blocker-w10--w11)
 
