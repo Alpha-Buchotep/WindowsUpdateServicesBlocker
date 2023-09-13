@@ -1,4 +1,5 @@
-# Windows Update Services Blocker (W7 / W8 / W10 / W11)
+# Windows Update Services Blocker
+### W7 / W8 / W10 / W11
 
  This service stops Windows Update and Windows Update Medic services at the specified intervals.
  If not configured in the wupblocker.conf file, the default value is 60 (sec).
