@@ -3,7 +3,7 @@
 
 ### Version: 1.0.4.0
 
- This service stops Windows Update and Windows Update Medic services at the specified intervals plus kill Windows Update Orchestrator processes if running. (MoUsoCoreWorker.exe, USOCoreWorker.exe, USOClient.exe).
+ This service stops Windows Update and Windows Update Medic services at the specified intervals plus kill Windows Update Session Orchestrator processes if running. (MoUsoCoreWorker.exe, USOCoreWorker.exe, USOClient.exe).
  
  **If not configured in the wupblocker.conf file, the default value is 60 (sec).**
 
