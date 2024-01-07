@@ -149,7 +149,7 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 - 100 - Starting Windows Update Blocker Service
 - 110 - Windows Update Blocker Service started successfully
  
-### Stopping Windows Update Services
+### Stopping / killing Windows Update Services
  
 - 200 - Attempting to stop Windows Update Services
 - 201 - Process MoUsoCoreWorker.exe killed (if running)
