@@ -1,7 +1,7 @@
 # Windows Update Services Blocker
 ### W7 / W8 / W10 / W11
 
- This service stops Windows Update and Windows Update Medic services at the specified intervals.
+ This service stops Windows Update and Windows Update Medic services at the specified intervals plus kill Windows Update Orchestrator processes if running. (MoUsoCoreWorker.exe, USOCoreWorker.exe, USOClient.exe).
  If not configured in the wupblocker.conf file, the default value is 60 (sec).
 
  The wupblocker.conf file is a plain text file that should be in the installation directory.
@@ -63,6 +63,8 @@
 
 ### Important!
 Always install to **dedicated subdirectory**.
+
+**Uninstall any previous release!**
 
  1. Execute installer as Administrator. (important)
  2. Select install directory.
@@ -147,6 +149,9 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 ### Stopping Windows Update Services
  
 - 200 - Attempting to stop Windows Update Services
+- 201 - Process MoUsoCoreWorker.exe killed (if running)
+- 202 - Process USOCoreWorker.exe killed (if running)
+- 203 - Process USOClient.exe killed (if running)
 - 210 - Windows Update Service stopped successfully
 - 220 - Windows Update Medic Service stopped successfully
 - 230 - Windows Update Service disabled successfully
@@ -191,24 +196,24 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 
 ## Virustotal
 
-- Setup-WUPSvcBlocker.v1.0.0.3.exe
-- Detection: 13 / 71 (09/13/2023)
+- Setup-WUPSvcBlocker.v1.0.4.0.exe
+- Detection: 11 / 69 (07/01/2024)
 
 ### Link
-#### https://www.virustotal.com/gui/file/539e3e7bf29dbba0c74a76c92e562eba887ff6d0107eb9cc0a0656a1da5f4f9f?nocache=1
+#### https://www.virustotal.com/gui/file/35ccf4036b260143833782adeb3a2b0ed14da003288bb166f186647dac54ef93?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlocker.exe
-- Detection: 2 / 71 (09/13/2023)
+- Detection: 0 / 69 (07/01/2024)
 
 ### Link
-#### https://www.virustotal.com/gui/file/539e3e7bf29dbba0c74a76c92e562eba887ff6d0107eb9cc0a0656a1da5f4f9f?nocache=1
+#### https://www.virustotal.com/gui/file/3eb5a07df7a940a3f039600a540045005b0e23d5aea42cceab379ef53882c5d7?nocache=1
 
 _______________________________________________________________________
 
 - WindowsUpdateBlockerCleanup.exe
-- Detection: 4 / 71 (09/13/2023)
+- Detection: 3 / 72 (07/01/2024)
 
 ### Link
 #### https://www.virustotal.com/gui/file/1911cad441298487cecc64e9b8590fe323a329ad7e0fd3ac030ea40b722f8ab9?nocache=1
