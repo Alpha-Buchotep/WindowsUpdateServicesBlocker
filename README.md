@@ -11,6 +11,7 @@
  You have to write in the first two lines of the config file.
 
  First line: check/disable interval in seconds, 0 will stop service. Accepted values: 30 - 600
+ 
  Second line: enable logging. Accepted values: y / n
  
  **Service and helper utility written in VB.NET (v4.5)**
@@ -35,8 +36,11 @@
  - **WindowsUpdateBlockerCleanup.exe** - a little console utility to resetting Windows Update and Windows Update Medic services to their defaults. This utility also stopping Windows Update Blocker Service.
 
  - **wupblocker.conf** - configuration file
+
    First line: check/disable interval in seconds, 0 will stop service. Accepted values: 30 - 600
+   
    Second line: enable logging. Accepted values: y / n
+   
  
 ### You can use 3 switches (run as Administrator to take effects)
  
