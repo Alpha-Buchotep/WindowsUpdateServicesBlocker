@@ -214,7 +214,7 @@ You can view service events in the Events Log > Apps&Services > WUP Blocker tree
 - Detection: 11 / 69 (07/01/2024)
 
 ### Link
-#### https://www.virustotal.com/gui/file/8397cebaeffb56dfa8b742383ae4ba66243fc826ffd398ee221d12af8ce9a12b?nocache=1
+#### https://www.virustotal.com/gui/file/b957010ed58a6671e1238efccacf1b3a532296d975016be25312274d78a07789?nocache=1
 
 _______________________________________________________________________
 
