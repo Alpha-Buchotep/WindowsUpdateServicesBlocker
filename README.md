@@ -17,8 +17,8 @@
  **Service and helper utility written in VB.NET (v4.5)**
 
 
- - [Files](README.md#files)
- - [Requirements](README.md#requirements)
+ - [Files](#files)
+ - [Requirements](#requirements)
  - [Installation](README.md#installation)
  - [Uninstallation](README.md#uninstallation)
  - [Search or apply Windows Update](README.md#search-or-apply-windows-update)
