@@ -19,14 +19,14 @@
 
  - [Files](#files)
  - [Requirements](#requirements)
- - [Installation](README.md#installation)
- - [Uninstallation](README.md#uninstallation)
- - [Search or apply Windows Update](README.md#search-or-apply-windows-update)
- - [Pictures](README.md#pictures)
- - [Event numbers](README.md#event-numbers-and-messages)
- - [Virustotal Results](README.md#virustotal)
- - [Trobleshooting](README.md#troubleshooting)
- - [Releases](README.md#see-release-here)
+ - [Installation](#installation)
+ - [Uninstallation](#uninstallation)
+ - [Search or apply Windows Update](#search-or-apply-windows-update)
+ - [Pictures](#pictures)
+ - [Event numbers](#event-numbers-and-messages)
+ - [Virustotal Results](#virustotal)
+ - [Trobleshooting](#troubleshooting)
+ - [Releases](#see-release-here)
 
 ## Files
 
